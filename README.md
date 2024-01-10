@@ -1,6 +1,6 @@
-# .NET Developer Roadmap 2024.
+# Roadmap Desenvolvedor .NET 2024
 
-This is a step-by-step guide to becoming a .NET Engineer, with links to relevant learning resources.
+Este é um roadmap para se tornar um Desenvolvedor .NET, com listagens, conteúdos e links organizados para seu aprendizado.
 
 If you want to learn more about .NET technologies, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
 
