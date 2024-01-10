@@ -2,151 +2,29 @@
 
 Este é um roadmap para se tornar um Desenvolvedor .NET, com listagens, conteúdos e links organizados para seu aprendizado.
 
-If you want to learn more about .NET technologies, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
+## Orientaçãoes sobre o roadmap
 
-## Disclaimer
+> Este roadmap pretende dar-lhe uma ideia sobre o que aprender para se tornar um Desenvolvedor .NET em 2024. O roteiro irá guiá-lo se você precisar de esclarecimentos sobre o que aprender e onde, em vez de encorajá-lo a escolher o que está na moda e na moda. O conteúdo desse documento é proviniente de experiências e pesquisas pessais do autor.
 
-> This roadmap aims to give you an idea about the landscape. The road map will guide you if you need clarification about what to learn next rather than encouraging you to pick what is hype and trendy. It would help if you grew some understanding of why one tool would be better suited for some cases than the other and remember that hype and trendy only sometimes mean best suited for the job.
+> Todas as referências de terceiros vão ser citadas, preservando assim os direitos autorias dos mesmos. 
 
-## Give a Star! :star:
-
-If you like or are using this project to learn or start your solution, please give it a star. Thanks!
-
-## Roadmap (by seniority level)
-
-Note that by seniority level, it means:
-
-🟣 **Junior**: Basic concepts
-
-🟤 **Medior**: Advanced concepts
-
-🔴 **Senior**: Expert concepts
-
-![Roadmap](NET%20Roadmap.png)
-
-Download [PDF version](NET%20Roadmap.pdf).
-
-## Minimalistic version
-
-Below you can find a bare minimum version every junior .NET developer needs to know, with learning materials included and clickable in the PDF version.
-
-![Roadmap](NET%20Developer%20Roadmap%202024.%20Minimal.png)
-
-Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
-
-
-## Table of Contents
-
-- [Understanding the .NET ecosystem](#understanding-the-net-ecosystem)
-  - [.NET runtimes](#net-runtimes)
-    - [.NET Framework](#net-framework)
-    - [.NET Core](#net-core)
-    - [The One .NET - .NET 5](#the-one-net---net-5)
-    - [The current - .NET 8](#the-current---net-8)
-  - [.NET Standard](#net-standard)
-- [Learning resources](#learning-resources)
-  - [1. C#](#1-c)
-  - [2. General Development Skills](#2-general-development-skills)
-  - [3. ASP.NET Core](#3-aspnet-core)
-  - [4. Client-Side .NET](#4-client-side-net)
-  - [5. Databases](#5-databases)
-  - [6. ORM](#6-orm)
-  - [7. Caching](#7-caching)
-  - [8. Logging](#8-logging)
-  - [9. Communication](#9-communication)
-  - [10. Background tasks](#10-background-tasks)
-  - [11. Object Mapping](#11-object-mapping)
-  - [12. Testing](#12-testing)
-  - [13. Observability](#13-observability)
-  - [15. Containerization](#15-containerization)
-  - [14. Cloud](#16-cloud)
-  - [15. Continuous Integration \& Delivery (CI/CD)](#17-continuous-integration--delivery-cicd)
-  - [16. NET Libraries](#18-net-libraries)
-  - [Additional considerations](#additional-considerations)
-    - [Performance best practices](#performance-best-practices)
-    - [Profiling and diagnostics](#profiling-and-diagnostics)
-    - [Performance best practices](#performance-best-practices-1)
-    - [Security and Cryptography](#security-and-cryptography)
-  - [Additional learning resources](#additional-learning-resources)
-    - [Books](#books)
-    - [YouTube Channels](#youtube-channels)
-    - [Blogs](#blogs)
-    - [Podcasts](#podcasts)
-    - [Other .NET Content creators](#other-net-content-creators)
-- [Tools](#tools)
-
-## Understanding the .NET ecosystem
-
-Before going into specifics, you need to have a solid understanding of the **.NET Ecosystem**. Here are a few that you should understand:
-
-## .NET runtimes
-
-In this section, we will look at the main .NET runtimes. We consider .NET runtime as anything that implements **[ECMA-335 Standard for .NET](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/dotnet-standards.md)**.
-
-### .NET Framework
-
-[.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework) is a software development framework for building and running applications on Windows. .NET Framework consists of Common Language Runtime (CLR), .NET Framework Class Library, and Application workloads (WPF, Windows Forms, and ASP.NET). CLR is part of a shared infrastructure that runs code, jit, does garbage collection (C#, VB.NET, F#), etc. The code that CLR manages is called managed code. Code is compiled into Common Intermediate Language (CIL) and stored in assemblies (with .exe or .dll extension). When an application runs, CLR takes an assembly and uses a just-in-time compiler (JIT) to transpile machine code into code that can run on specific computer architecture.
-
-You can use it for both desktop and web development, but it is limited to Windows development, and it comes preinstalled on Windows.
-
-### .NET Core
-
-[.NET Core](https://dotnet.microsoft.com/en-us/download) is one of the runtimes in the .NET Ecosystem. It was released in 2016. and it's [open-sourced](https://github.com/dotnet/core). It does not represent a new version of the .NET Framework and will not replace it. It is an entirely independent version, built to allow cross-platform capability for application development. .NET Core consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET Core Class Library. It supports different application workloads, such as ASP.NET Core (MVC and API), console applications, and UWP (currently).
-
-.NET Core can run on different platforms: Windows Client, Server, IoT, Linux, Ubuntu, FreeBSD, Tizen, and Mac OSX, and can be installed side-by-side of different versions per machine or user.
-
-
-### The One .NET - .NET 5
-
-[.NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0) was released in November 2020 with the goal of unifying development for desktop, Web, cloud, mobile, gaming, IoT, and AI applications. The earlier setup goal was to produce a single .NET runtime and framework, cross-platform, integrating the best features of .NET Core, .NET Framework, Xamarin, and Mono. However, due to the global health pandemic, the unification was postponed to .NET 6. .NET 5 is a shared code base for .NET Core, Mono, Xamarin, and future .NET implementations. Also, target framework names (TFMs), which express which version of .NET targeting, are updated, so we now have net5.0. This is for code that runs everywhere. It combines and replaces the netcoreapp and netstandard names and net5.0-windows that represent OS-specific flavors of .NET 5 that include net5.0 plus OS-specific bindings.
-
-### The current - .NET 8
-
-[.NET 8](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8) is the latest runtime in the .NET Ecosystem. It is released in November 2023. and it unifies development for desktop, Web, cloud, mobile, gaming, IoT, and AI applications. .NET 8 consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET 8 Class Library. It also includes ASP.NET Core 8. .NET 8 has nearly identical platform support as .NET Core 3.1 for Windows, macOS, and Linux.
-
-.NET 8 is a **Long Term Support (LTS)**. Those releases are supported for three years after the initial release.
-
-.NET 7 was a **Standard Term Support** release, supported for six months after a subsequent STS or LTS release.
-
-## .NET Standard
-
-Different runtimes use different class libraries, e.g., .NET Framework uses .NET Framework class library, while .NET Core contains its class library, as well as Xamarin with its class library. In this way, it's hard to share code between different runtimes, as they use different APIs. Microsoft's solution is the **.NET Standard library**, released in 2016. It represents a set of (formal) specifications that say which APIs you can use and all runtimes implement it. It is the evolution of Portable Class Libraries (PCL). Specific runtimes implement specific versions of .NET Standard (implementing specific APIs). E.g., .NET Framework 4.8.1 implements .NET Standard 2.0, and .NET 7 implements .NET Standard 2.1 ([link](https://learn.microsoft.com/en-us/dotnet/standard/net-standard?tabs=net-standard-1-0#net-implementation-support)).
-
-To learn more about the .NET Ecosystem, check [this blog post](https://milan.milanovic.org/post/a-brief-walk-through-net-ecosystem/).
-
-**.NET Release Schedule by Microsoft:**
-
-![.NET Release schedule by Microsoft](release-schedule.png)
-
-
-## Learning resources
+## ROADMAP
 
 ### 1. C#
 
-C# is a programming language developed by Microsoft. It's a go-to choice for building anything from desktop applications and games (using Unity) to cloud-based solutions and web services. With strong support for object-oriented programming and a rich library, it's designed to be easy and efficient. 
+O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orientada a objeto e fortemente tipada. O C# permite que os desenvolvedores criem muitos tipos de aplicativos seguros e robustos que são executados no .NET. O C# tem suas raízes na família de linguagens C e os programadores em C, C++, Java e JavaScript a reconhecerão imediatamente. Este tour dá uma visão geral dos principais componentes da linguagem em C# 8 e anterioe. Se quiser explorar a linguagem por meio de exemplos interativos, experimente os tutoriais de Introdução à linguagem C#.
 
-The latest version is **[C# 12](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)**, released in November 2023.
-
-Check the full C# timeline:
-
-![C# Timeline](csharp-timeline.png)
-
-You need to understand different **C# language features**, such as:
-
-- Object-oriented programming (classes, objects, interfaces, inheritance, polymorphism)
-- Variables, data types, and operators
-- Reference and value types
-- Control flow (conditionals, loops)
-- Generics
-- Exception handling
-- Delegates and events
-- Assemblies
-- Collections
-- LINQ (Language Integrated Query)
-- Async and await for asynchronous programming
-
-But also **.NET libraries and APIs** for:
-
+- Programação orientada a objetos (classes, objetos, interfaces, herança, polimorfismo)
+- Variáveis, tipos de dados e operadores
+- Tipos de referência e valor
+- Fluxo de controle (condicionais, loops)
+- Genéricos
+- Manipulação de exceção
+- Delegados e eventos
+- Montagens
+- Coleções
+- LINQ (consulta integrada de linguagem)
+- Assíncrono e aguardar programação assíncrona
 - File I/O and serialization
 - Collections and data structures
 - Networking 
@@ -162,13 +40,6 @@ But also **.NET libraries and APIs** for:
 - [C# Basics for Beginners: Learn C# Fundamentals by Coding](https://www.udemy.com/course/csharp-tutorial-for-beginners/)
 - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
 - [NuGet](https://learn.microsoft.com/en-us/nuget/what-is-nuget) package manager
-- [Dot Net Perls](https://www.dotnetperls.com/s#c#) - Many code examples in C#
-- Advanced concepts:
-    - [Become a Full-stack .NET Developer - Advanced Topics](https://www.pluralsight.com/courses/full-stack-dot-net-developer)
-    - [Async/Await](https://devblogs.microsoft.com/dotnet/how-async-await-really-works/) by Stephen Toub
-    - [Threading in C#](https://www.albahari.com/threading/) by Joseph Albahari
-    - [Concurrency](https://www.codeguru.com/csharp/thread-synchronization-c-sharp/) and [Locking](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock)
-- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 
 
 ### 2. General Development Skills
