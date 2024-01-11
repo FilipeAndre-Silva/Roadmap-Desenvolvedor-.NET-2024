@@ -12,7 +12,9 @@ Este é um roadmap para se tornar um Desenvolvedor .NET, com listagens, conteúd
 
 ### 1. C#
 
-O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orientada a objeto e fortemente tipada. O C# permite que os desenvolvedores criem muitos tipos de aplicativos seguros e robustos que são executados no .NET.
+O [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/) (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orientada a objeto e fortemente tipada. O C# permite que os desenvolvedores criem muitos tipos de aplicativos seguros e robustos que são executados no .NET.
+
+Você precisa entender os diferentes recursos da linguagem C# , como:
 
 - Programação orientada a objetos (classes, objetos, interfaces, herança, polimorfismo)
 - Variáveis, tipos de dados e operadores
@@ -33,6 +35,13 @@ O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orienta
 - CLI dotnet
 - Gerenciador de pacotes NuGet
 
+**Recursos**:
+
+- [Microsoft Aprenda C#](https://dotnet.microsoft.com/en-us/learn/csharp).
+- [Microsoft C#](https://learn.microsoft.com/en-us/shows/csharp-101/)
+- [Aprenda a CLI dotnet](https://docs.microsoft.com/dotnet/core/tools)
+- [Gerenciador de pacotes NuGet](https://learn.microsoft.com/en-us/nuget/what-is-nuget)
+  
 ### 2. Habilidades Gerais de Desenvolvimento
 
 Dominar padrões de design, código limpo e controle de versão, como o Git, é fundamental para desenvolver código eficiente e facilmente mantido em ambientes colaborativos. Essas práticas não apenas aprimoram a qualidade do código, mas também diferenciam um programador comum de um engenheiro de software qualificado.
@@ -73,43 +82,43 @@ Dominar padrões de design, código limpo e controle de versão, como o Git, é 
     - Aprenda os fundamentos das arquiteturas de software
     - Aprenda o estilo de arquitetura em camadas
     - Aprenda microsserviços e DAPR
-    - Aprenda Design Orientado a Domínio ou com o livro
-
+    - [Aprenda Design Orientado a Domínio](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design)
+      
 ### 3. ASP.NET Core 
 
-O .NET é uma plataforma de desenvolvedor composta por ferramentas, linguagens de programação e bibliotecas para criar muitos tipos diferentes de aplicativos.
+ASP.NET é uma estrutura popular de desenvolvimento na Web para a criação de aplicativos Web em Plataforma .NET.
 
-A plataforma base fornece componentes que se aplicam a todos os diferentes tipos de aplicativos. Estruturas adicionais, como o ASP.NET, estendem o .NET com componentes para a criação de tipos específicos de aplicativos.
+O [ASP.NET Core](https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-core) é a versão de código aberto do ASP.NET, que executa no macOS, Linux e Windows. O ASP.NET Core foi lançado pela primeira vez em 2016 e é um novo design de versões anteriores somente para Windows do ASP.NET.
 
 - Noções básicas da Web:
-  - Como funciona a Internet
+  - [Como funciona a Internet](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work)
   - O que acontece quando você digita um URL no seu navegador?
   - Como funciona o DNS
-  - Protocolo HTTP(S)
-- ASP.NET MVC
-- Middlewares
+  - [Protocolo HTTP(S)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) 
+- [ASP.NET MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)
+- [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
 - APIs
-  - API Web
-  - APIs mínimas
+  - [Web API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)
+  - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-8.0)
   - Protocolos
-    - DESCANSAR
-    - GráficoQL
-    - gRPC
+    - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
+    - [GraphQL](https://graphql.org/)
+    - [gRPC](https://grpc.io/)
   - Práticas recomendadas de design de API REST
   - Compreendendo os cabeçalhos REST
 - Injeção de dependência
-  - Ciclos de vida
-  - Injeção de dependência de extensões da Microsoft
-  - Autofac
-  - Escrutador
-- Configurações e configurações do aplicativo
-- Filtros e atributos
+  - [Ciclos de vida](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
+  - [Injeção de dependência de extensões da Microsoft](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0)
+  - [Autofac](https://autofac.org/)
+  - [Scrutor](https://github.com/khellang/Scrutor)
+- [Configurações e configurações do aplicativo](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
+- [Filtros e atributos](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
 - Segurança
-  - Autenticação ou este tópico do Reddit
-  - Autorização
-  - Servidor de Identidade
-  - Autor0
-  - OIDC
+  - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication) or [este tópico do Reddit](https://www.reddit.com/r/dotnet/comments/we9qx8/a_comprehensive_overview_of_authentication_in/)
+  - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
+  - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
+  - [Auth0](https://auth0.com)
+  - [OIDC](https://openid.net/connect)
 
 ### 4. Client-Side .NET
 
