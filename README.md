@@ -33,54 +33,48 @@ O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orienta
 - Aprenda a CLI dotnet
 - Gerenciador de pacotes NuGet
 
-### 2. General Development Skills
+### 2. Habilidades Gerais de Desenvolvimento
 
-Mastering design patterns, clean code, and version control like Git enables you to write efficient, maintainable code that works and thrives in a team environment. It's the difference between being a coder and a skilled software engineer.
+Dominar padrões de design, código limpo e controle de versão como o Git permite que você escreva código eficiente e de fácil manutenção que funcione e prospere em um ambiente de equipe. É a diferença entre ser um programador e um engenheiro de software qualificado.
 
-Here, you need to know different principles, such as:
+**Princípios SÓLIDOS**:
+- Princípio de Responsabilidade Única (SRP)
+- Princípio Aberto/Fechado (OCP)
+- Princípio de Substituição de Liskov (LSP)
+- Princípio de segregação de interface (ISP)
+- Princípio de Inversão de Dependência (DIP)
+- SECO (não se repita)
+- KISS (mantenha-o simples, estúpido)
+- YAGNI (Você não vai precisar disso)
+- Lei de Deméter (LoD) ou Princípio do Menor Conhecimento
+- Composição sobre herança
+- O princípio do menor espanto
+- Estilos e padrões de arquitetura de software (MVC, MVP)
 
-**SOLID Principles**:
-  - Single Responsibility Principle (SRP)
-  - Open/Closed Principle (OCP)
-  - Liskov Substitution Principle (LSP)
-  - Interface Segregation Principle (ISP)
-  - Dependency Inversion Principle (DIP)
+**Recursos**:
 
-But also:
-
-- DRY (Don't Repeat Yourself)
-- KISS (Keep It Simple, Stupid)
-- YAGNI (You Ain't Gonna Need It)
-- Law of Demeter (LoD) or Principle of least knowledge
-- Composition over Inheritance
-- The principle of least astonishment
-- Software architecture styles and patterns (MVC, MVP)
-
-**Resources**:
-
-- Learn [Git](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
-- Learn [Data Structures & Algorithms](https://amzn.to/3LTsZ6o)
-- Learn [Clean Code](https://amzn.to/3Qdj91J)
-- Learn [Refactoring](https://www.pluralsight.com/courses/refactoring-fundamentals) fundamentals
-- Learn [Design Patterns from the book](https://amzn.to/3QcVQVS) or [video tutorials](https://www.pluralsight.com/paths/design-patterns-in-c) or download [cheat sheet](Patterns.png).
-  - Must know patterns are:
-    - Singleton
-    - Factory Method
-    - Adapter
-    - Facade
-    - Decorator
-    - Proxy
-    - Command
-    - Template method
-    - Strategy
-    - Observer
-- Learn [Main software design](https://newsletter.techworld-with-milan.com/p/main-software-design-principles-you) principles
-- Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
-- Software Archtitecure Styles
-    - Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
-    - Learn [Layered](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html) architecture style
-    - Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
-    - Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design) or from [the book](https://amzn.to/49jl0tm)
+- Aprenda Git
+- Aprenda estruturas de dados e algoritmos
+- Aprenda código limpo
+- Aprenda os fundamentos da refatoração
+- Aprenda Design Patterns.
+  - Singleton
+  - Factory Method
+  - Adapter
+  - Facade
+  - Decorator
+  - Proxy
+  - Command
+  - Template method
+  - Strategy
+  - Observer
+- Aprenda em profundidade os princípios SOLID de OO Design.
+- Aprenda em profundidade os princípios SOLID de OO Design.
+- Estilos de arquitetura de software
+    - Aprenda os fundamentos das arquiteturas de software
+    - Aprenda o estilo de arquitetura em camadas
+    - Aprenda microsserviços e DAPR
+    - Aprenda Design Orientado a Domínio ou com o livro
 
 ### 3. ASP.NET Core 
 
