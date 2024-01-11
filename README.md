@@ -432,7 +432,7 @@ A segurança desempenha um papel essencial no desenvolvimento de aplicativos. Os
 - [Aprenda a programar de graça](https://www.youtube.com/@programedegraca)
 - [André Secco](https://www.youtube.com/@AndreSecco)
 - [Filipe Brito · BraboDev](https://www.youtube.com/@filipebritodev)
-- [Code Yourself]([https://www.youtube.com/@abrandaol](https://www.youtube.com/@codeyourself6251))
+- [Code Yourself]([https://www.youtube.com/@abrandaol](https://www.youtube.com/@codeyourself6251)
 - [Curso De Tecnologia](https://www.youtube.com/@cursodetecnologia)
 - [Central dotNET](https://www.youtube.com/@CentraldotNET)
 - [Manual do Programador](https://www.youtube.com/@manualdoprogramador1653)
