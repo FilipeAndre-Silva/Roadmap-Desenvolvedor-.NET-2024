@@ -68,7 +68,7 @@ Dominar padrões de design, código limpo e controle de versão como o Git permi
   - Template method
   - Strategy
   - Observer
-- Aprenda em profundidade os princípios SOLID de OO Design.
+- Aprenda os principais princípios de design de software
 - Aprenda em profundidade os princípios SOLID de OO Design.
 - Estilos de arquitetura de software
     - Aprenda os fundamentos das arquiteturas de software
@@ -88,37 +88,35 @@ Here, you also need to know **web development fundamentals**, such as:
 
 **Resources**:
 
-- Web Basics:
-    - [How Internet works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work)
-    - [What happens when you type a URL into your browser?](https://newsletter.techworld-with-milan.com/p/what-happens-when-you-type-a-url)
-    - [How DNS works](https://newsletter.techworld-with-milan.com/i/135973327/how-dns-works)
-    - [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) 
-- [ASP.NET MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)
-- [ASP.NET MVC 5 Fundamentals by Scott Alen](https://www.pluralsight.com/courses/aspdotnet-mvc5-fundamentals) course
-- [ASP.NET Core Fundamentals by Scott Alen](https://www.pluralsight.com/courses/aspnet-core-fundamentals) course
-- [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
+- Noções básicas da Web:
+  - Como funciona a Internet
+  - O que acontece quando você digita um URL no seu navegador?
+  - Como funciona o DNS
+  - Protocolo HTTP(S)
+- ASP.NET MVC
+- Middlewares
 - APIs
-    - [Web API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)
-    - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-8.0)
-    - Protocols
-        - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
-        - [GraphQL](https://graphql.org/)
-        - [gRPC](https://grpc.io/)
-    - [REST API Design Best Practices](https://newsletter.techworld-with-milan.com/p/rest-api-design-best-practices)
-    - [Understanding REST Headers](https://newsletter.techworld-with-milan.com/p/understanding-rest-headers)
-- Dependency Injection
-    - [Life Cycles](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
-    - [Microsoft Extensions Dependency Injection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0)
-    - [Autofac](https://autofac.org/)
-    - [Scrutor](https://github.com/khellang/Scrutor)
-- [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
-- [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
-- Security
-    - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication) or [this Reddit thread](https://www.reddit.com/r/dotnet/comments/we9qx8/a_comprehensive_overview_of_authentication_in/)
-    - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
-    - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
-    - [Auth0](https://auth0.com)
-    - [OIDC](https://openid.net/connect)
+  - API Web
+  - APIs mínimas
+  - Protocolos
+    - DESCANSAR
+    - GráficoQL
+    - gRPC
+  - Práticas recomendadas de design de API REST
+  - Compreendendo os cabeçalhos REST
+- Injeção de dependência
+  - Ciclos de vida
+  - Injeção de dependência de extensões da Microsoft
+  - Autofac
+  - Escrutador
+- Configurações e configurações do aplicativo
+- Filtros e atributos
+- Segurança
+  - Autenticação ou este tópico do Reddit
+  - Autorização
+  - Servidor de Identidade
+  - Autor0
+  - OIDC
 
 ### 4. Client-Side .NET
 
