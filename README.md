@@ -12,7 +12,7 @@ Este é um roadmap para se tornar um Desenvolvedor .NET, com listagens, conteúd
 
 ### 1. C#
 
-O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orientada a objeto e fortemente tipada. O C# permite que os desenvolvedores criem muitos tipos de aplicativos seguros e robustos que são executados no .NET. O C# tem suas raízes na família de linguagens C e os programadores em C, C++, Java e JavaScript a reconhecerão imediatamente. Este tour dá uma visão geral dos principais componentes da linguagem em C# 8 e anterioe. Se quiser explorar a linguagem por meio de exemplos interativos, experimente os tutoriais de Introdução à linguagem C#.
+O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orientada a objeto e fortemente tipada. O C# permite que os desenvolvedores criem muitos tipos de aplicativos seguros e robustos que são executados no .NET.
 
 - Programação orientada a objetos (classes, objetos, interfaces, herança, polimorfismo)
 - Variáveis, tipos de dados e operadores
@@ -20,24 +20,24 @@ O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orienta
 - Fluxo de controle (condicionais, loops)
 - Genéricos
 - Manipulação de exceção
-- Delegados e eventos
-- Montagens
-- Coleções
+- Delegates e eventos
+- Assemblies
+- Collections
 - LINQ (consulta integrada de linguagem)
-- Assíncrono e aguardar programação assíncrona
-- File I/O and serialization
-- Collections and data structures
+- Assíncrono
+- File I/O e serialização de arquivos
+- Estruturas de dados
 - Networking 
-- Multithreading and task parallelism
-- Security and cryptography
-- Aprenda a CLI dotnet
+- Multithreading e paralelismo de tarefas
+- Segurança e criptografia
+- CLI dotnet
 - Gerenciador de pacotes NuGet
 
 ### 2. Habilidades Gerais de Desenvolvimento
 
 Dominar padrões de design, código limpo e controle de versão como o Git permite que você escreva código eficiente e de fácil manutenção que funcione e prospere em um ambiente de equipe. É a diferença entre ser um programador e um engenheiro de software qualificado.
 
-**Princípios SÓLIDOS**:
+**Princípios SOLID**:
 - Princípio de Responsabilidade Única (SRP)
 - Princípio Aberto/Fechado (OCP)
 - Princípio de Substituição de Liskov (LSP)
@@ -51,8 +51,7 @@ Dominar padrões de design, código limpo e controle de versão como o Git permi
 - O princípio do menor espanto
 - Estilos e padrões de arquitetura de software (MVC, MVP)
 
-**Recursos**:
-
+**Habilidades Gerais**:
 - Aprenda Git
 - Aprenda estruturas de dados e algoritmos
 - Aprenda código limpo
@@ -79,8 +78,6 @@ Dominar padrões de design, código limpo e controle de versão como o Git permi
 ### 3. ASP.NET Core 
 
 É uma estrutura multiplataforma e de alto desempenho desenvolvida pela Microsoft para a construção de aplicativos web, APIs e microsserviços. Você também pode executar seus aplicativos no Windows, Linux ou macOS. Ele foi projetado para oferecer flexibilidade e escalabilidade com recursos como injeção de dependência integrada e um sistema de configuração robusto.
-
-**Recursos**:
 
 - Noções básicas da Web:
   - Como funciona a Internet
@@ -116,29 +113,22 @@ Dominar padrões de design, código limpo e controle de versão como o Git permi
 
 Se quiser construir UIs em .NET, você precisará dessas estruturas. O Razor é um mecanismo de modelo para a criação de HTML dinâmico, enquanto o Blazor vai além, permitindo criar UIs interativas da web usando C# em vez de JavaScript. MAUI é um sucessor do Xamarin feito para a construção de aplicativos móveis multiplataforma. Windows Presentation Foundation (WPF) é uma estrutura de UI que cria aplicativos clientes de desktop.
 
-**Recursos**:
-
 - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
 - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [.NET MAUI](https://github.com/dotnet/maui)
 - [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0)
 
-### 5. Databases
+### 5. Bancos de dados
 
-Good database design ensures efficient data storage and quick retrieval, making your app run smoother and scale easier. SQL, the go-to language for database interaction, gives you the power to query, update, and manage the data you've so carefully designed to store.
+Na definição mais básica, um banco de dados é qualquer coleção de informações inter-relacionadas. Ao fazer uma lista de compras em um pedaço de papel, você está criando um pequeno banco de dados analógico. Mas o que é um banco de dados na ciência da computação? Nesse contexto, você define "banco de dados" como uma coleção de informações armazenadas como dados em um sistema de computador, como o estoque do mercado local.
 
-Here, you need to know:
-
-- SQL Syntax
-- Basics of Database design (normal forms, keys, relationships)
-- The Difference Between Inner, Left, Right, and Full Join
-- SQL Queries Execution Order
-- What is Query Optimizer
-
-**Resources**:
-
-- [Database design](https://www.youtube.com/watch?v=ztHopE5Wnpc)
-- [Learn SQL](https://newsletter.techworld-with-milan.com/p/how-to-learn-sql)
+- Sintaxe SQL
+- Noções básicas de design de banco de dados (formulários normais, chaves, relacionamentos)
+- A diferença entre junção interna, esquerda, direita e completa
+- Ordem de execução de consultas SQL
+- O que é o otimizador de consulta
+- Projeto de banco de dados
+- Aprenda SQL
 - Relational
   - [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
   - [PostgreSQL](https://www.postgresql.org)
@@ -150,21 +140,21 @@ Here, you need to know:
   - [RavenDB](https://github.com/ravendb/ravendb)
   - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db)
 - Tools:
-  - [SQLFlow](https://sqlflow.gudusoft.com/#/) - a great tool to visualize SQL queries.
+  - [SQLFlow](https://sqlflow.gudusoft.com/#/) - uma ótima ferramenta para visualizar consultas SQL.
 
 ### 6. ORM
 
-Object-relational mapping (ORM) is like a translator between your object-oriented C# code and the relational database, eliminating the tedious task of writing SQL queries for basic CRUD operations. Using ORM frameworks like Entity Framework, you can manipulate data as objects in your code, making it more readable and maintainable. This speeds up development, minimizes errors, and lets you focus on complex business logic rather than wrestling with database syntax.
+O mapeamento objeto-relacional (ORM) é como um tradutor entre seu código C# orientado a objetos e o banco de dados relacional, eliminando a tediosa tarefa de escrever consultas SQL para operações CRUD básicas. Usando estruturas ORM como Entity Framework, você pode manipular dados como objetos em seu código, tornando-o mais legível e fácil de manter. Isso acelera o desenvolvimento, minimiza erros e permite que você se concentre em lógicas de negócios complexas, em vez de lidar com a sintaxe do banco de dados.
 
-For **Entity Framework**, you need to know the following:
+Para **Entity Framework**, você precisa saber o seguinte:
 
-- DbContext and DbSet for managing database connections and querying data
-- Code-First and Database-First approaches for defining data models
-- Migrations for managing database schema changes
-- Querying data using LINQ and raw SQL
-- Tracking changes and saving data
+- DbContext e DbSet para gerenciar conexões de banco de dados e consultar dados
+- Abordagens Code-First e Database-First para definir modelos de dados
+- Migrações para gerenciar alterações no esquema do banco de dados
+- Consultando dados usando LINQ e SQL bruto
+- Rastreando alterações e salvando dados
 
-**Resources**:
+**Outros recursos**:
 
 - [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core)
     - [Code First Migrations](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
