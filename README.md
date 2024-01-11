@@ -448,6 +448,13 @@ A segurança desempenha um papel essencial no desenvolvimento de aplicativos. Os
 - [Luiz Carlos Faria](https://www.youtube.com/@luizcarlosfaria)
 - [Fabio Akita](https://www.youtube.com/@Akitando)
 - [Alexandre B L](https://www.youtube.com/@abrandaol)
+
+### Outros roadmaps para basear seus estudos:
+
+- [ASP.NET Core Developer](https://roadmap.sh/aspnet-core)
+- [.NET Developer Roadmap 2024.](https://github.com/milanm/DotNet-Developer-Roadmap)(base para o roadmap do autor)
+- [.NET Framework Developer Roadmap in 2024 for Beginners](https://medium.com/@jeslurrahman/net-framework-developer-roadmap-in-2024-for-beginners-f4f066257671)
+- [.NET Backend Developer Roadmap](https://www.linkedin.com/posts/devnotes_dotnet-backend-developer-roadmap-2024-edition-activity-7148626861718208512-i_hg)
   
 ## Licença
 
