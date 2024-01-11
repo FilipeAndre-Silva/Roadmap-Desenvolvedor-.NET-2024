@@ -30,17 +30,8 @@ O C# (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orienta
 - Networking 
 - Multithreading and task parallelism
 - Security and cryptography
-
-**Resources**:
-
-- [Microsoft Learn C#](https://dotnet.microsoft.com/en-us/learn/csharp).
-- [Microsoft C# Fundamentals for Absolute Beginners](https://learn.microsoft.com/en-us/shows/c-fundamentals-for-absolute-beginners/).
-- [Microsoft C# 101](https://learn.microsoft.com/en-us/shows/csharp-101/)
-- [Udemy C# for Beginners - Coding From Scratch (.NET Core)](https://www.udemy.com/course/c-and-net-core-for-beginners/)
-- [C# Basics for Beginners: Learn C# Fundamentals by Coding](https://www.udemy.com/course/csharp-tutorial-for-beginners/)
-- Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
-- [NuGet](https://learn.microsoft.com/en-us/nuget/what-is-nuget) package manager
-
+- Aprenda a CLI dotnet
+- Gerenciador de pacotes NuGet
 
 ### 2. General Development Skills
 
