@@ -166,8 +166,7 @@ Para **Entity Framework**, você precisa saber o seguinte:
 
 ### 7. Caching
 
-Caching is like your app's personal short-term memory, storing frequently accessed data so it can be quickly retrieved without taxing your database. By reducing database load and speeding up data access, caching gives your app the competitive edge it needs to meet user demands for responsiveness and availability.
-
+O cache é como a memória pessoal de curto prazo do seu aplicativo, armazenando dados acessados ​​com frequência para que possam ser recuperados rapidamente sem sobrecarregar seu banco de dados. Ao reduzir a carga do banco de dados e acelerar o acesso aos dados, o cache dá ao seu aplicativo a vantagem competitiva necessária para atender às demandas dos usuários por capacidade de resposta e disponibilidade.
 **Resources**:
 
 - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
@@ -178,7 +177,7 @@ Caching is like your app's personal short-term memory, storing frequently access
 
 ### 8. Logging
 
-Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like NLog or Serilog integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
+O registro captura informações de tempo de execução, erros e outros dados cruciais que podem ajudá-lo a identificar e corrigir problemas rapidamente, tornando seu aplicativo mais confiável e seguro. Estruturas de registro como NLog ou Serilog integram-se perfeitamente ao .NET, fornecendo uma ferramenta de diagnóstico em tempo real indispensável para monitorar a integridade do aplicativo, solucionar problemas e até mesmo coletar insights para desenvolvimento futuro.
 
 **Resources**:
 
@@ -186,17 +185,17 @@ Logging captures runtime information, errors, and other crucial data that can he
 - [NLog](https://github.com/NLog/NLog)
 - [Microsoft.Extensions.Logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
 
-### 9. Communication
+### 9. Comunicação
 
-In .NET we have three types of communication: Real-time communication, Synchronous, and Asynchronous communication. Real-time communication technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. Synchronous communication is mainly done by using through HTTP Client, while asynchronous communication is done through different messaging and event-based frameworks and libraries. Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. Event handlers, on the other side, are used for handling events within a single application. They facilitate a publisher-subscriber model where one part of the application can raise an event that other parts can react to.
+No .NET temos três tipos de comunicação: comunicação em tempo real, comunicação síncrona e comunicação assíncrona. Tecnologias de comunicação em tempo real, como o SignalR no ecossistema .NET, possibilitam essas funcionalidades mantendo uma conexão constante entre servidor e cliente. A comunicação síncrona é feita principalmente por meio do cliente HTTP, enquanto a comunicação assíncrona é feita por meio de diferentes estruturas e bibliotecas baseadas em mensagens e eventos. Os sistemas de mensagens atuam como intermediários entre diferentes partes do seu sistema, permitindo que eles se comuniquem sem estarem diretamente conectados. Os manipuladores de eventos, por outro lado, são usados ​​para manipular eventos dentro de um único aplicativo. Eles facilitam um modelo editor-assinante onde uma parte do aplicativo pode gerar um evento ao qual outras partes podem reagir.
 
-**Resources**:
+**Recursos**:
 
-- Real time communication:
+- Comunicação em tempo real:
     - [SignalR Core](https://docs.microsoft.com/aspnet/core/signalr)
     - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets) 
     - [Socket.IO](https://github.com/doghappy/socket.io-client-csharp)
-- Synchronous communication: 
+- Comunicação síncrona: 
     - [HTTP Client](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-8.0)
 - Asynchronous communication: 
     - Message brokers:
@@ -214,17 +213,17 @@ In .NET we have three types of communication: Real-time communication, Synchrono
          - [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
          - [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
    
-### 10. Background tasks
+### 10. Tarefas em segundo plano
 
-These services run tasks in the background, freeing up your application to focus on user interactions. Whether data processing, automated emails, or periodic clean-ups, background services ensure these tasks don't slow down or interrupt the user experience. 
+Esses serviços executam tarefas em segundo plano, liberando seu aplicativo para se concentrar nas interações do usuário. Seja processamento de dados, e-mails automatizados ou limpezas periódicas, os serviços em segundo plano garantem que essas tarefas não atrasem ou interrompam a experiência do usuário.
 
-**Resources**:
+**Recursos**:
 
 - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
 - [HangFire](https://github.com/HangfireIO/Hangfire)
 - [Quartz](https://github.com/quartznet/quartznet)
 
-### 11. Object Mapping  
+### 11. Mapeamento de objetos 
 
 Their libraries automate the task of mapping between objects, eliminating the need for repetitive, error-prone manual mapping code. This boosts productivity and minimizes bugs, especially when dealing with complex models and DTOs (Data Transfer Objects). 
 
@@ -233,16 +232,9 @@ Their libraries automate the task of mapping between objects, eliminating the ne
 - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
 - [Mapster](https://github.com/MapsterMapper/Mapster)
 
-### 12. Testing
+### 12. Testes
 
-Unit tests focus on isolated pieces of your code, integration tests ensure different parts play well together, and end-to-end tests validate the entire user journey within your application. Together, they form a safety net, catching bugs early, simplifying debugging, and making your codebase robust and maintainable.
-
-Here you need to know:
-
-- Test frameworks (xUnit, NUnit, MSTest)
-- Test runners and test explorers
-- Asserts and test attributes
-- Mocking libraries (Moq, NSubstitute, etc.)
+Os testes de unidade concentram-se em partes isoladas do seu código, os testes de integração garantem que diferentes partes funcionem bem juntas e os testes ponta a ponta validam toda a jornada do usuário dentro do seu aplicativo. Juntos, eles formam uma rede de segurança, detectando bugs antecipadamente, simplificando a depuração e tornando sua base de código robusta e fácil de manter.
 
 **Resources**:
 
@@ -252,8 +244,8 @@ Here you need to know:
       - [NUnit](https://nunit.org/)
       - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
     - Mocking
-      - [NSubstitute](https://github.com/nsubstitute/NSubstitute) - for new projects
-      - [Moq](https://github.com/moq/moq4) - for old projects ([why](https://www.bleepingcomputer.com/news/security/popular-open-source-project-moq-criticized-for-quietly-collecting-data/))
+      - [NSubstitute](https://github.com/nsubstitute/NSubstitute) - para novos projetos
+      - [Moq](https://github.com/moq/moq4) - para projetos antigos ([why](https://www.bleepingcomputer.com/news/security/popular-open-source-project-moq-criticized-for-quietly-collecting-data/))
     - Assertion
       - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
       - [Shouldly](https://github.com/shouldly/shouldly)
@@ -274,16 +266,13 @@ Here you need to know:
      - [K6](https://github.com/grafana/k6)
      - [JMeter](https://github.com/apache/jmeter)
 
-### 13. Observability   
+### 13. Observabilidade   
 
-These tools provide real-time insights into your application's performance, user behavior, and error rates, enabling you to address issues before they escalate into full-blown problems proactively.
+Essas ferramentas fornecem insights em tempo real sobre o desempenho do seu aplicativo, o comportamento do usuário e as taxas de erro, permitindo que você resolva os problemas antes que eles se transformem em problemas graves de forma proativa.
 
-- **Monitoring** focuses on the health and availability of services and systems, often triggering alerts for predefined conditions.
+- **Monitorização** centra-se na saúde e disponibilidade de serviços e sistemas, desencadeando frequentemente alertas para condições predefinidas.
 
-- **Telemetry** collects, processes, and transmits data from systems, enabling analysis of patterns, trends, and anomalies.
-
-**Resources**:
-
+- **Telemetria** coleta, processa e transmite dados de sistemas, permitindo a análise de padrões, tendências e anomalias.
 - [Prometheus](https://github.com/prometheus/prometheus)
 - [Grafana](https://github.com/grafana/grafana)
 - [Datadog](https://www.datadoghq.com)
@@ -293,11 +282,10 @@ These tools provide real-time insights into your application's performance, user
 - [Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
 - [Azure Log Analytics](https://docs.microsoft.com/azure/azure-monitor/logs/log-analytics-overview)
 
-### 14. Containerization
+### 14. Conteinerização
 
-Container solutions encapsulate your .NET application, libraries, and runtime into isolated containers. This enables consistency across multiple development and production environments, resolving dependency issues. With features like layered file systems, you can easily manage container images for ASP.NET, .NET Core, or other .NET services, optimizing build times and resource utilization.
+As soluções de contêiner encapsulam seu aplicativo .NET, bibliotecas e tempo de execução em contêineres isolados. Isso permite consistência em vários ambientes de desenvolvimento e produção, resolvendo problemas de dependência. Com recursos como sistemas de arquivos em camadas, você pode gerenciar facilmente imagens de contêiner para ASP.NET, .NET Core ou outros serviços .NET, otimizando os tempos de compilação e a utilização de recursos.
 
-**Resources**:
 - Containers
     - [Docker](https://www.docker.com)
     - [Docker Compose](https://docs.docker.com/compose/)
@@ -309,33 +297,23 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
     - [Helm](https://helm.sh/)
     - [Azure Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/overview)
 
-### 15. Cloud
+### 15. Nuvem
 
-Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud runs on servers in data centers, but the abstractions cleverly give the appearance of interacting with a single "platform" or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to the tremendous success and complexity of modern DevOps.
+Os provedores de nuvem fornecem uma camada de APIs para abstrair a infraestrutura e provisioná-la com base nos limites de segurança e faturamento. A nuvem é executada em servidores em data centers, mas as abstrações dão a impressão de interagir com uma única “plataforma” ou aplicativo grande. A capacidade de provisionar, configurar e proteger rapidamente recursos com provedores de nuvem tem sido fundamental para o tremendo sucesso e complexidade do DevOps moderno.
 
-The most popular cloud providers in the market are **AWS** and **Azure**, as well as **Google Cloud**.
+Os provedores de nuvem mais populares do mercado são AWS e Azure , bem como Google Cloud.
 
-Here, you must know how to manage users and administration, networks, virtual servers, etc.
-
-**Resources**:
+Aqui você deve saber gerenciar usuários e administração, redes, servidores virtuais, etc.
 
 - [AWS](https://aws.amazon.com/)
 - [Azure](https://azure.microsoft.com/)
 - [Google Cloud](https://cloud.google.com/)
 
-### 16. Continuous Integration & Delivery (CI/CD)
+### 16. Integração e entrega contínua (CI/CD)
 
-CI/CD automates the building, testing, and deployment stages into a streamlined, error-resistant pipeline. This means faster releases, bug fixes, and more time to focus on feature development.
+CI/CD automatiza os estágios de construção, teste e implantação em um pipeline simplificado e resistente a erros. Isso significa lançamentos mais rápidos, correções de bugs e mais tempo para focar no desenvolvimento de recursos.
 
-Here you need to know how to:
-
-- Build and deployment tools (MSBuild, dotnet CLI)
-- Version control systems (Git, Azure DevOps)
-- CI/CD platforms (GitHub Actions, Azure Pipelines, Jenkins, TeamCity)
-
-**Resources**:
-
-- [DevOps concepts](https://newsletter.techworld-with-milan.com/p/devops-roadmap-2023)
+- [Conceitos de DevOps](https://newsletter.techworld-with-milan.com/p/devops-roadmap-2023)
 - Services:
     - [GitHub Actions](https://github.com/features/actions)
     - [Gitlab CI](https://docs.gitlab.com/ee/ci)
@@ -344,100 +322,96 @@ Here you need to know how to:
     - [Jenkins](https://www.jenkins.io)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-### 17. NET Libraries
+### 17. Bibliotecas .NET
 
-Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
+Algumas bibliotecas .NET úteis. Observe que nem todas as bibliotecas serão usadas por todos, depende principalmente do projeto em que você trabalha.
 
-- **[MediatR](https://github.com/jbogard/MediatR)** - Mediator pattern implementation in .NET
-- **[Polly](https://github.com/App-vNext/Polly)** - Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
-- **[Fluent Validation](https://github.com/JeremySkinner/FluentValidation)** - .NET validation library for building strongly-typed validation rules.
-- **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** - .NET library for benchmarking.
-- **[Refit](https://github.com/reactiveui/refit)** - Turns your REST API into a live interface.
-- **[YARP](https://microsoft.github.io/reverse-proxy/)** - Reverse proxy server.
-- **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** - Swagger tools for documenting API's built on ASP.NET Core.
+- **[MediatR](https://github.com/jbogard/MediatR)** - Implementação do padrão mediador em .NET
+- **[Polly](https://github.com/App-vNext/Polly)** -  Biblioteca de tratamento de falhas que permite expressar políticas como Retry e Circuit Breaker.
+- **[Fluent Validation](https://github.com/JeremySkinner/FluentValidation)** - biblioteca de validação .NET para construir regras de validação fortemente tipadas.
+- **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** - biblioteca .NET para benchmarking.
+- **[Refit](https://github.com/reactiveui/refit)** - Transforma sua API REST em uma interface ativa.
+- **[YARP](https://microsoft.github.io/reverse-proxy/)** - Servidor proxy reverso.
+- **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** - Ferramentas Swagger para documentar APIs construídas em ASP.NET Core.
+  
+## Considerações adicionais
 
-## Additional considerations
+### Melhores práticas de desempenho
 
-In addition to this, you also need to know the following:
+#### Perfil e diagnóstico
 
-### Performance best practices
-
-Performances play an essential role in .NET applications. Here you need to know:
-
-#### Profiling and diagnostics
-
-These tools can help you identify and debug different performance bottlenecks you have in your code. For this, you can use other tools, such as:
+Essas ferramentas podem ajudá-lo a identificar e depurar diferentes gargalos de desempenho em seu código. Para isso, você pode utilizar outras ferramentas, como:
 
 - [PerfView](https://joshthecoder.com/2023/10/23/using-perfview-to-diagnose-high-cpu-in-an-aspnet-app.html)
 - [Visual Studio Profiler](https://learn.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2022)
 - [dotTrace](https://www.jetbrains.com/profiler/) and [dotMemory](https://www.jetbrains.com/dotmemory/)
 
-#### Performance best practices
+#### Melhores práticas de desempenho
 
-Along with tools, you should be aware of different performance best practices for .NET:
+- **Cache** (cache de memória in-mem ou Redis)
 
-- **Caching** (in-mem Memory Cache or Redis)
+- **Otimização de banco de dados** (otimizar consultas, indexação adequada, pool de conexões)
 
-- **Database Optimization** (optimize queries, proper indexing, connection pooling)
+- **Programação assíncrona** (descarrega todas as operações extensas da CPU ou vinculadas a E/S para banco de dados, sistemas de arquivos, sistemas externos)
 
-- **Async Programming** (offload all CPU extensive or I/O bound operations to DB, file systems, ext. systems)
+- **Use o Entity Framework com sabedoria** (use carregamento rápido, projeções e otimizações como consultas compiladas)
 
-- **Use Entity Framework wisely** (use eager loading, projections, and optimizations like compiled queries)
+- **Gerenciamento de memória** (use tipos de valor e seja cauteloso com gráficos de objetos grandes. Use o padrão de descarte para conexões ou fluxos de banco de dados. Evite boxe/unboxing. Use StringBuilder em vez de String para um grande número de concatenações.)
 
-- **Memory management** (use value types and be cautious with large object graphs. Use dispose pattern to db connections or streams. Avoid boxing/unboxing. Use StringBuilder instead of String for a large number of concatenations.)
+- **Cache HTTP** (use ETags, cabeçalhos modificados pela última vez)
 
-- **HTTP Caching** (use ETags, Last-Modified headers)
+- **Minimize as viagens de ida e volta** (reduza o número de solicitações HTTP e viagens de ida e volta ao banco de dados)
 
-- **Minimize Round-Trips** (reduce the number of HTTP requests and database round-trips)
+- **Redes de distribuição de conteúdo** (CDNs) (descarregue ativos estáticos (CSS, JavaScript, imagens) para CDNs para entrega mais rápida aos usuários)
 
-- **Content Delivery Networks (CDNs)** (Offload static assets (CSS, JavaScript, images) to CDNs for faster delivery to users)
+- **Compressão** (habilite a compressão GZIP ou Brotli para respostas HTTP para reduzir o tamanho da transferência de dados)
 
-- **Compression** (Enable GZIP or Brotli compression for HTTP responses to reduce data transfer size)
+- **Registro e rastreamento** (evite registro excessivo na produção. Use rastreamento distribuído entre microsserviços).
 
-- **Logging and Tracing** (Avoid excessive logging in production. Use distributed tracing across microservices.)
+- **Paralelismo e simultaneidade** (utilize paralelismo e multithreading para tarefas vinculadas à CPU usando classe Parallel ou Task Parallel Library (TPL))
 
-- **Parallelism and Concurrency** (Utilize parallelism and multithreading for CPU-bound tasks using Parallel class or Task Parallel Library (TPL))
+- **Otimização de recursos** (otimize imagens e ativos para a Web para reduzir o tempo de carregamento)
 
-- **Resource Optimization** (Optimize images and assets for the Web to reduce load times)
+- **HTTP2 sobre SSL** (agora tome decisões inteligentes sobre o conteúdo da página)
 
-- **HTTP2 over SSL** (now make intelligent decisions about the page content)
+- **Meça e monitore o desempenho** (use ferramentas de diagnóstico VS, App Insights ou BenchmarkDotNet)
 
-- **Measure and Monitor Performance** (use VS Diagnostic Tools, App Insights, or BenchmarkDotNet)
+- **User Span<> em vez de coleções** (spans podem representar uma seção contígua de memória; isso significa que podemos usá-los para operar em arrays)
 
 - **User Span<> instead of collections** (spans can represent a contiguous section of memory; this means we can use them to operate over arrays)
 
-### Security and Cryptography
+### Segurança e criptografia
 
-Security plays an essential role in application development. The most critical aspects of security in the .NET world are:
+A segurança desempenha um papel essencial no desenvolvimento de aplicativos. Os aspectos mais críticos da segurança no mundo .NET são:
 
-- [**Authentication and Authorization**](https://learn.microsoft.com/en-us/aspnet/web-api/overview/security/authentication-and-authorization-in-aspnet-web-api) concepts:
+- [**Conceitos de autenticação e autorização**](https://learn.microsoft.com/en-us/aspnet/web-api/overview/security/authentication-and-authorization-in-aspnet-web-api):
   - Cookies
-  - ASP.NET Core Identity for user management
+  - ASP.NET Core para gerenciamento de usuários
   - .NET OIDC middleware
-  - OAuth and OpenID Connect for 3rd-party authentication
-  - JWT (JSON Web Tokens) for token-based authentication
-  - Role-based and claims-based authorization
+  - OAuth e OpenID Connect para autenticação de terceiros
+  - JWT (JSON Web Tokens) para autenticação baseada em token
+  - Autorização baseada em funções e declarações
 
-- [**Cryptography and Data Protection**](https://learn.microsoft.com/en-us/dotnet/standard/security/cross-platform-cryptography) concepts:
-  - Symmetric and asymmetric encryption algorithms
-  - .NET Core Data Protection APIs
-  - Hashing and digital signatures
-  - Secure random number generation
+- [**Conceitos de criptografia e proteção de dados**](https://learn.microsoft.com/en-us/dotnet/standard/security/cross-platform-cryptography):
+  - Algoritmos de criptografia simétrica e assimétrica
+  - APIs de proteção de dados do .NET Core
+  - Hashing e assinaturas digitais
+  - Geração segura de números aleatórios
 
-## Additional learning resources
+## Recursos adicionais de aprendizagem
 
 - [Pluralsight learning platform](https://www.pluralsight.com/browse?q=C%20sharp&type=all&sort=highest) - Learn C#/.NET mostly from Microsoft MVPs.
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet) - A collection of awesome .NET libraries, tools, frameworks, and software.
 - [Microsoft .NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
 
-### Books
+### Livros
 
 - [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT) - the best for beginners
 - [C# in Depth: Fourth Edition](https://amzn.to/3ZPcZbq) by Jon Skeet - the best for intermediate
 - [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced
 - [The C# Yellow](http://www.csharpcourse.com/) (free) - the best book overall
 
-### YouTube Channels
+### Canais do YouTube
 
 - [IAmTimCorey](https://www.youtube.com/user/IAmTimCorey) 
 - [Programming with Mosh](https://www.youtube.com/user/programmingwithmosh) 
@@ -474,42 +448,10 @@ Security plays an essential role in application development. The most critical a
 - [Steven Giesel](https://steven-giesel.com/), Microsoft MVP
 - [Code Maze Weekly](https://code-maze.com/), articles on .NET, weekly.
 
-### Podcasts
-
-  - [.NET Rocks!](https://www.dotnetrocks.com/)
-  - [Rockin' the Code World with Dot Net Dave](https://www.c-sharpcorner.com/live/rockin-the-code-world-with-dotnetdave)
-  - [The Modern .NET Show](https://dotnetcore.show/)
-    
-### Other [.NET Content creators](https://www.wearedotnet.io/)
-
-## Tools
-
-- [Git](https://github.com/git-guides/install-git) and some [GUI clients](https://www.hostinger.com/tutorials/best-git-gui-clients/) - Distibuted source control system.
-- [Visual Studio](https://visualstudio.microsoft.com/) - Main code editor for .NET projects.
-- [Visual Studio Code](https://code.visualstudio.com/) - Lightweight code editor for different tech stacks, including .NET.
-- [Rider](https://www.jetbrains.com/rider/) - Cross-Platform .NET IDE from JetBrains.
-- [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) / [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/) - IDE for managing any SQL infrastructure, from SQL Server to Azure SQL Database.
-- [LINQPad](https://www.linqpad.net/) - interactively query databases with LINQ.
-- [ReSharper](https://www.jetbrains.com/resharper/) - rapid refactoring.
-- [.NET Reflector](https://www.red-gate.com/products/reflector/) - .NET decompiler.
-- [Postman](https://www.postman.com/) - platform for testing APIs.
-- [NDepend](https://www.ndepend.com/) - static code analyzer.
-- [NCrunch for Visual Studio](https://www.ncrunch.net/) - enables developers to run tests in the background as they write code.
-
-## Wrap Up
-
-If you think the roadmap can be improved, please open a PR with any updates and submit any issues. Also, I will continue to improve this, so you should star this repository, too.
-
-## Contribution
-
-- Open a pull request with improvements
-- Discuss ideas in issues
-- Spread the word
-
-## License
+## Licença
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## Author
+## Autor
 
-[Dr. Milan Milanović](https://milan.milanovic.org) -  CTO at [3MD](https://3mdinc.com) and Microsoft MVP for Developer Technologies.
+[Filipe Silva](https://milan.milanovic.org) -  Analista II de Backend
