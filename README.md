@@ -4,7 +4,7 @@ Este é um roadmap para se tornar um Desenvolvedor .NET, com listagens, conteúd
 
 ## Orientaçãoes sobre o roadmap
 
-> Este roadmap pretende dar-lhe uma ideia sobre o que aprender para se tornar um Desenvolvedor .NET em 2024. O roteiro irá guiá-lo se você precisar de esclarecimentos sobre o que aprender e onde, em vez de encorajá-lo a escolher o que está na moda e na moda. O conteúdo desse documento é proviniente de experiências e pesquisas pessais do autor.
+> Este roadmap pretende dar-lhe uma ideia sobre o que aprender para se tornar um Desenvolvedor .NET em 2024. O roteiro irá guiá-lo se você precisar de esclarecimentos sobre o que aprender e onde, em vez de encorajá-lo a escolher o que está na moda e na moda. O conteúdo desse documento é proveniente de experiências e pesquisas pessoais do autor.
 
 > Todas as referências de terceiros vão ser citadas, preservando assim os direitos autorias dos mesmos. 
 
@@ -404,56 +404,42 @@ A segurança desempenha um papel essencial no desenvolvimento de aplicativos. Os
   - Hashing e assinaturas digitais
   - Geração segura de números aleatórios
 
-## Recursos adicionais de aprendizagem
-
-- [Pluralsight learning platform](https://www.pluralsight.com/browse?q=C%20sharp&type=all&sort=highest) - Learn C#/.NET mostly from Microsoft MVPs.
-- [Awesome .NET!](https://github.com/quozd/awesome-dotnet) - A collection of awesome .NET libraries, tools, frameworks, and software.
-- [Microsoft .NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
-
-### Livros
-
-- [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT) - the best for beginners
-- [C# in Depth: Fourth Edition](https://amzn.to/3ZPcZbq) by Jon Skeet - the best for intermediate
-- [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced
-- [The C# Yellow](http://www.csharpcourse.com/) (free) - the best book overall
-
 ### Canais do YouTube
 
-- [IAmTimCorey](https://www.youtube.com/user/IAmTimCorey) 
-- [Programming with Mosh](https://www.youtube.com/user/programmingwithmosh) 
-- [Nick Chapsas](https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg) 
-- [Milan Jovanovic](https://www.youtube.com/@MilanJovanovicTech) 
-- [Zoran Horvat](https://www.youtube.com/@zoran-horvat) 
-- [CodeOpinion](https://www.youtube.com/watch?v=_rgH0Kb9Bis), by Derek Comartin
-- freeCodeCamp
-  - [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8) (3h)
-  - [Advanced C# Programming Course](https://www.youtube.com/watch?v=YT8s-90oDC0) (15h)
-
-### Blogs
-
-- Official [.NET Blog](https://devblogs.microsoft.com/dotnet/)
-- [The Morning Dew](https://www.alvinashcraft.com/), aggregator of different info about .NET world, by Alvin Ashcraft.
-- [You’ve Been Haacked](https://haacked.com/), by Phil Haack.
-- [Eric Lippert's blog](https://ericlippert.com/), who worked on C# compiler team.
-- [Steve Smith](https://ardalis.com/), who focus on code qualiy and DDD.
-- [Andrew Lock](https://andrewlock.net/), Senior Engineer at Datadog
-- [Scott Hanselman](https://www.hanselman.com/blog/), Partner Program Manager at Microsoft
-- [Rick Strahl's Web Log](https://weblog.west-wind.com/), focus on web and desktop apps in .NET.
-- [Adam Sitnik](https://adamsitnik.com/), an expert on .NET Performance and Reliability.
-- [Jimmy Bogard](https://www.jimmybogard.com/), creator of AutoMapper.
-- [Vladimir Khorikov](https://enterprisecraftsmanship.com/), and expert in Testing.
-- [Ayende @ Rahien](https://ayende.com/blog/), written by Oren Eini, creator of RavenDB.
-- [Maarten Balliauw](https://blog.maartenballiauw.be/), Developer Advocate at JetBrains.
-- [Khalid Abuhakmeh’s Blog](https://khalidabuhakmeh.com/), Developer Advocate at JetBrains.
-- [Stephen Cleary](https://blog.stephencleary.com/), the author of "Concurrency in C# Cookbook"
-- [Scott Brady](https://www.scottbrady91.com/articles), an expert on OAuth and web security.
-- [Jiří Činčura](https://www.tabsoverspaces.com/), a project lead for ADO.NET provider for Firebird DB.
-- [Coding Militia](https://blog.codingmilitia.com/), by João Antunes (Microsoft MVP).
-- [Michael Shpilt](https://michaelscodingspot.com/), a software developer working at Microsoft
-- [Mark Seemann](https://blog.ploeh.dk/), explains concepts that are not commonly blogged about with C#.
-- [Steven Giesel](https://steven-giesel.com/), Microsoft MVP
-- [Code Maze Weekly](https://code-maze.com/), articles on .NET, weekly.
-
+- [Lucas Montano](https://www.youtube.com/@LucasMontano)
+- [Daniel Avelar - Programação Além do Código](https://www.youtube.com/@DanielAvelar)
+- [LuisDev](https://www.youtube.com/@luisdev)
+- [Milton Sampaio - Programação](https://www.youtube.com/@MiltonSampaioProgramacao)
+- [Bolt](https://www.youtube.com/@boltjz)
+- [Alura](https://www.youtube.com/@alura)
+- [mano deyvin](https://www.youtube.com/@manodeyvin)
+- [Attekita Dev](https://www.youtube.com/@attekitadev)
+- [Área Tech Brasil](https://www.youtube.com/@AreaTechBrasil)
+- [Daniel Jesus](https://www.youtube.com/@DanielJesusNet)
+- [balta.io](https://www.youtube.com/@baltaio)
+- [Nick Chapsas](https://www.youtube.com/@nickchapsas/videos)
+- [Canal dotNET](https://www.youtube.com/@CanalDotNET)
+- [Azure na Prática](https://www.youtube.com/@AzurenaPratica)
+- [.NET Foundation](https://www.youtube.com/@NETFoundation)
+- [DEV NET CORE Valdir Ferreira](https://www.youtube.com/@devnetcore)
+- [Jose Carlos Macoratti](https://www.youtube.com/@josecarlosmacoratti)
+- [Código Fonte TV](https://www.youtube.com/@codigofontetv)
+- [Diogo Costa Dev](https://www.youtube.com/@diogocostadev)
+- [Patrick God](https://www.youtube.com/@PatrickGod)
+- [Dev Fico](https://www.youtube.com/@devfico)
+- [CodeTotal](https://www.youtube.com/@CodeTotal)
+- [Alexandre B L](https://www.youtube.com/@abrandaol)
+- [Aprenda a programar de graça](https://www.youtube.com/@programedegraca)
+- [André Secco](https://www.youtube.com/@AndreSecco)
+- [Filipe Brito · BraboDev](https://www.youtube.com/@filipebritodev)
+- [Code Yourself]([https://www.youtube.com/@abrandaol](https://www.youtube.com/@codeyourself6251))
+- [Curso De Tecnologia](https://www.youtube.com/@cursodetecnologia)
+- [Central dotNET](https://www.youtube.com/@CentraldotNET)
+- [Manual do Programador](https://www.youtube.com/@manualdoprogramador1653)
+- [Luiz Carlos Faria](https://www.youtube.com/@luizcarlosfaria)
+- [Fabio Akita](https://www.youtube.com/@Akitando)
+- [Alexandre B L](https://www.youtube.com/@abrandaol)
+  
 ## Licença
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
