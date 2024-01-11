@@ -78,15 +78,9 @@ Dominar padrões de design, código limpo e controle de versão como o Git permi
 
 ### 3. ASP.NET Core 
 
-It is a cross-platform, high-performance framework developed by Microsoft for building web apps, APIs, and microservices. You can also run your apps on Windows, Linux, or macOS. It's engineered for flexibility and scalability with features like built-in dependency injection and a robust configuration system.
+É uma estrutura multiplataforma e de alto desempenho desenvolvida pela Microsoft para a construção de aplicativos web, APIs e microsserviços. Você também pode executar seus aplicativos no Windows, Linux ou macOS. Ele foi projetado para oferecer flexibilidade e escalabilidade com recursos como injeção de dependência integrada e um sistema de configuração robusto.
 
-Here, you also need to know **web development fundamentals**, such as:
-
-- HTML, CSS, and JavaScript for front-end development
-- HTTP protocols, DNS, request/response model, and RESTful APIs
-- Routing, middleware, authentication, and authorization
-
-**Resources**:
+**Recursos**:
 
 - Noções básicas da Web:
   - Como funciona a Internet
@@ -120,18 +114,14 @@ Here, you also need to know **web development fundamentals**, such as:
 
 ### 4. Client-Side .NET
 
-If you want to build UIs in .NET, you will need these frameworks. Razor is a template engine for creating dynamic HTML, while Blazor takes it up a notch, letting you build interactive web UIs using C# instead of JavaScript. MAUI is a Xamarin successor made for building cross-platform mobile apps. Windows Presentation Foundation (WPF) is a UI framework that creates desktop client applications. Uno Platform is an open source cross-platform graphical user interface that allows WinUI and Universal Windows Platform (UWP) - based code to run on iOS, macOS, Linux, Android, and WebAssembly.
+Se quiser construir UIs em .NET, você precisará dessas estruturas. O Razor é um mecanismo de modelo para a criação de HTML dinâmico, enquanto o Blazor vai além, permitindo criar UIs interativas da web usando C# em vez de JavaScript. MAUI é um sucessor do Xamarin feito para a construção de aplicativos móveis multiplataforma. Windows Presentation Foundation (WPF) é uma estrutura de UI que cria aplicativos clientes de desktop.
 
-**Resources**:
+**Recursos**:
 
 - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
 - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [.NET MAUI](https://github.com/dotnet/maui)
 - [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0)
-- [WinUI](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/)
-- [Uno Platform](https://platform.uno/)
-- [Avalonia](https://avaloniaui.net/)
-- Note: [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) and [WinForms](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview/?view=netdesktop-8.0) are also used client-side .NET technologies but they are more in their end of life.
 
 ### 5. Databases
 
