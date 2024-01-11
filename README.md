@@ -359,7 +359,7 @@ Essas ferramentas podem ajudá-lo a identificar e depurar diferentes gargalos de
 
 - [PerfView](https://joshthecoder.com/2023/10/23/using-perfview-to-diagnose-high-cpu-in-an-aspnet-app.html)
 - [Visual Studio Profiler](https://learn.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2022)
-- [dotTrace](https://www.jetbrains.com/profiler/) and [dotMemory](https://www.jetbrains.com/dotmemory/)
+- [dotTrace](https://www.jetbrains.com/profiler/) e [dotMemory](https://www.jetbrains.com/dotmemory/)
 
 #### Melhores práticas de desempenho
 
@@ -441,7 +441,7 @@ A segurança desempenha um papel essencial no desenvolvimento de aplicativos. Os
 - [Aprenda a programar de graça](https://www.youtube.com/@programedegraca)
 - [André Secco](https://www.youtube.com/@AndreSecco)
 - [Filipe Brito · BraboDev](https://www.youtube.com/@filipebritodev)
-- [Code Yourself]([https://www.youtube.com/@abrandaol](https://www.youtube.com/@codeyourself6251)
+- [Code Yourself](https://www.youtube.com/@abrandaol])
 - [Curso De Tecnologia](https://www.youtube.com/@cursodetecnologia)
 - [Central dotNET](https://www.youtube.com/@CentraldotNET)
 - [Manual do Programador](https://www.youtube.com/@manualdoprogramador1653)
