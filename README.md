@@ -4,7 +4,7 @@ Este é um roadmap para se tornar um Desenvolvedor .NET, com listagens, conteúd
 
 ## Orientaçãoes sobre o roadmap
 
-> Este roadmap pretende dar-lhe uma ideia sobre o que aprender para se tornar um Desenvolvedor .NET em 2024. O roteiro irá guiá-lo se você precisar de esclarecimentos sobre o que aprender e onde, em vez de encorajá-lo a escolher o que está na moda e na moda. O conteúdo desse documento é proveniente de experiências e pesquisas pessoais do autor.
+> Este roadmap pretende dar-lhe uma ideia sobre o que aprender para se tornar um Desenvolvedor .NET em 2024. O roteiro irá guiá-lo se você precisar de esclarecimentos sobre o que aprender e onde, em vez de encorajá-lo a escolher o que está na moda. O conteúdo desse documento é proveniente de experiências e pesquisas pessoais do autor.
 
 > Todas as referências de terceiros vão ser citadas, preservando assim os direitos autorias dos mesmos. 
 
