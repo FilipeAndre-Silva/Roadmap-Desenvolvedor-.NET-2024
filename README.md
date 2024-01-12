@@ -57,7 +57,7 @@ Dominar padrões de design, código limpo e controle de versão, como o Git, é 
 - YAGNI (Você não vai precisar disso)
 - Lei de Deméter (LoD) ou Princípio do Menor Conhecimento
 - Composição sobre herança
-- O princípio do menor espanto
+- O princípio da menor surpresa
 - Estilos e padrões de arquitetura de software (MVC, MVP)
 
 **Habilidades Gerais**:
