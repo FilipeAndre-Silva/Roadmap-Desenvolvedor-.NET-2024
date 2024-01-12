@@ -93,7 +93,7 @@ O [ASP.NET Core](https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-
 - Noções básicas da Web:
   - [Como funciona a Internet](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work)
   - O que acontece quando você digita um URL no seu navegador?
-  - Como funciona o DNS
+  - [Como funciona o DNS](https://aws.amazon.com/pt/route53/what-is-dns/#:~:text=O%20sistema%20DNS%20da%20internet,dom%C3%ADnio%20no%20navegador%20da%20web.) 
   - [Protocolo HTTP(S)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) 
 - [ASP.NET MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)
 - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
@@ -104,8 +104,8 @@ O [ASP.NET Core](https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-
     - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
     - [GraphQL](https://graphql.org/)
     - [gRPC](https://grpc.io/)
-  - Práticas recomendadas de design de API REST
-  - Compreendendo os cabeçalhos REST
+  - [Práticas recomendadas de design de API REST](https://learn.microsoft.com/pt-br/azure/architecture/best-practices/api-design)
+  - [Compreendendo os cabeçalhos REST](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers)
 - Injeção de dependência
   - [Ciclos de vida](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
   - [Injeção de dependência de extensões da Microsoft](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0)
