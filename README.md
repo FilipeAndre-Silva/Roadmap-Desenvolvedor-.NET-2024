@@ -14,7 +14,7 @@ Este é um roadmap para se tornar um Desenvolvedor .NET, com listagens, conteúd
 
 O [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/) (pronuncia-se "C Sharp") é uma linguagem de programação moderna, orientada a objeto e fortemente tipada. O C# permite que os desenvolvedores criem muitos tipos de aplicativos seguros e robustos que são executados no .NET.
 
-Você precisa entender os diferentes recursos da linguagem C# , como:
+É essencial compreender os diversos recursos da linguagem C#, tais como:
 
 - Programação orientada a objetos (classes, objetos, interfaces, herança, polimorfismo)
 - Variáveis, tipos de dados e operadores
@@ -50,10 +50,10 @@ Dominar padrões de design, código limpo e controle de versão, como o Git, é 
 - Princípio de Responsabilidade Única (SRP)
 - Princípio Aberto/Fechado (OCP)
 - Princípio de Substituição de Liskov (LSP)
-- Princípio de segregação de interface (ISP)
+- Princípio de Segregação de Interface (ISP)
 - Princípio de Inversão de Dependência (DIP)
-- SECO (não se repita)
-- KISS (mantenha-o simples, estúpido)
+- SECO (Não se repita)
+- KISS (Mantenha-o simples, estúpido)
 - YAGNI (Você não vai precisar disso)
 - Lei de Deméter (LoD) ou Princípio do Menor Conhecimento
 - Composição sobre herança
@@ -61,11 +61,11 @@ Dominar padrões de design, código limpo e controle de versão, como o Git, é 
 - Estilos e padrões de arquitetura de software (MVC, MVP)
 
 **Habilidades Gerais**:
-- Aprenda Git
-- Aprenda estruturas de dados e algoritmos
-- Aprenda código limpo
-- Aprenda os fundamentos da refatoração
-- Aprenda Design Patterns.
+- Aprender Git
+- Aprender estruturas de dados e algoritmos
+- Aprender código limpo
+- Aprender os fundamentos da refatoração
+- Aprender Design Patterns:
   - Singleton
   - Factory Method
   - Adapter
@@ -76,13 +76,13 @@ Dominar padrões de design, código limpo e controle de versão, como o Git, é 
   - Template method
   - Strategy
   - Observer
-- Aprenda os principais princípios de design de software
-- Aprenda em profundidade os princípios SOLID de OO Design.
-- Estilos de arquitetura de software
-    - Aprenda os fundamentos das arquiteturas de software
-    - Aprenda o estilo de arquitetura em camadas
-    - Aprenda microsserviços e DAPR
-    - [Aprenda Design Orientado a Domínio](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design)
+- Aprender os principais princípios de design de software
+- Aprender em profundidade os princípios SOLID de OO Design
+- Estilos de arquitetura de software:
+    - Aprender os fundamentos das arquiteturas de software
+    - Aprender o estilo de arquitetura em camadas
+    - Aprender microsserviços e DAPR
+    - [Aprender Design Orientado a Domínio](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design)
       
 ### 3. ASP.NET Core 
 
