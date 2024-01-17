@@ -111,10 +111,10 @@ O [ASP.NET Core](https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-
   - [Injeção de dependência de extensões da Microsoft](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0)
   - [Autofac](https://autofac.org/)
   - [Scrutor](https://github.com/khellang/Scrutor)
-- [Configurações e configurações do aplicativo](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
+- [Configurações do aplicativo](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
 - [Filtros e atributos](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
 - Segurança
-  - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication) or [este tópico do Reddit](https://www.reddit.com/r/dotnet/comments/we9qx8/a_comprehensive_overview_of_authentication_in/)
+  - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication)
   - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
   - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
   - [Auth0](https://auth0.com)
@@ -135,7 +135,7 @@ Na definição mais básica, um [banco de dados](https://azure.microsoft.com/pt-
 
 - Sintaxe SQL
 - Noções básicas de design de banco de dados (formulários normais, chaves, relacionamentos)
-- A diferença entre junção interna, esquerda, direita e completa
+- A diferença entre Inner, Left, Right e Full Join
 - Ordem de execução de consultas SQL
 - O que é o otimizador de consulta
 - Projeto de banco de dados
@@ -178,19 +178,16 @@ Para **Entity Framework**, você precisa saber o seguinte:
 ### 7. Caching
 
 O cache funciona como a memória de curto prazo do seu aplicativo, retendo dados frequentemente acessados para uma recuperação rápida, evitando assim sobrecarregar o banco de dados. Ao aliviar a carga do banco de dados e otimizar o acesso aos dados, o cache proporciona ao seu aplicativo a vantagem competitiva necessária para atender às exigências dos usuários por responsividade e disponibilidade.
-**Resources**:
 
 - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
 - [Redis](https://redis.io/)
-- Application-Level
+- Nível de aplicativo
    - [Built-in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
    - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
 
 ### 8. Logging
 
 O registro(Logging) é responsável por capturar dados de tempo de execução, erros e outras informações essenciais que facilitam a identificação e correção rápida de problemas, contribuindo para tornar seu aplicativo mais confiável e seguro. Estruturas de registro como NLog ou Serilog integram-se de maneira fluida ao ambiente .NET, oferecendo uma ferramenta de diagnóstico em tempo real crucial para monitorar a saúde do aplicativo, solucionar questões e até mesmo obter insights valiosos para orientar o desenvolvimento futuro.
-
-**Resources**:
 
 - [Serilog](https://github.com/serilog/serilog)
 - [NLog](https://github.com/NLog/NLog)
@@ -204,15 +201,13 @@ No ecossistema .NET, a comunicação se desdobra em três formas: comunicação 
 
 Os sistemas de mensagens atuam como intermediários entre diferentes partes do seu sistema, permitindo que elas se comuniquem sem uma conexão direta. Por outro lado, os manipuladores de eventos são utilizados para lidar com eventos dentro de um único aplicativo, facilitando um modelo editor-assinante. Nesse modelo, uma parte do aplicativo pode gerar um evento ao qual outras partes podem reagir de forma adequada. Essas abordagens proporcionam flexibilidade e eficiência na comunicação entre os componentes do sistema.
 
-**Recursos**:
-
 - Comunicação em tempo real:
     - [SignalR Core](https://docs.microsoft.com/aspnet/core/signalr)
     - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets) 
     - [Socket.IO](https://github.com/doghappy/socket.io-client-csharp)
 - Comunicação síncrona: 
     - [HTTP Client](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-8.0)
-- Asynchronous communication: 
+- Comunicação assíncrona: 
     - Message brokers:
          - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
          - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -232,8 +227,6 @@ Os sistemas de mensagens atuam como intermediários entre diferentes partes do s
 
 Esses serviços realizam tarefas em segundo plano, permitindo que seu aplicativo direcione sua atenção para as interações do usuário. Seja para processamento de dados, envio de e-mails automatizados ou execução de limpezas periódicas, os serviços em segundo plano asseguram que essas atividades não afetem nem interrompam a experiência do usuário, garantindo um funcionamento suave e contínuo do aplicativo.
 
-**Recursos**:
-
 - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
 - [HangFire](https://github.com/HangfireIO/Hangfire)
 - [Quartz](https://github.com/quartznet/quartznet)
@@ -242,8 +235,6 @@ Esses serviços realizam tarefas em segundo plano, permitindo que seu aplicativo
 
 As bibliotecas que disponibiliza automatizam a tarefa de mapeamento entre objetos, eliminando a necessidade de codificação manual repetitiva e sujeita a erros. Esse processo aprimora a produtividade e reduz a incidência de bugs, especialmente ao lidar com modelos complexos e objetos de transferência de dados (DTOs).
 
-**Resources**:
-
 - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
 - [Mapster](https://github.com/MapsterMapper/Mapster)
 
@@ -251,9 +242,7 @@ As bibliotecas que disponibiliza automatizam a tarefa de mapeamento entre objeto
 
 Os testes unitários direcionam sua atenção para partes isoladas do código, os testes de integração asseguram a harmonia entre diferentes componentes, e os testes ponta a ponta validam toda a jornada do usuário no seu aplicativo. Juntos, esses testes constituem uma rede de segurança, identificando bugs precocemente, simplificando a depuração e fortalecendo sua base de código, tornando-a robusta e fácil de manter.
 
-**Resources**:
-
-- [Unit Testing](https://www.pluralsight.com/courses/advanced-unit-testing)
+- [Teste unitário](https://www.pluralsight.com/courses/advanced-unit-testing)
     - Frameworks
       - [xUnit](https://xunit.net/)
       - [NUnit](https://nunit.org/)
@@ -267,17 +256,17 @@ Os testes unitários direcionam sua atenção para partes isoladas do código, o
     - Test Data Generators
       - [Bogus](https://github.com/bchavez/Bogus)
       - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
-- Integration Testing
+- Teste de integração
     - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
     - [TestServer](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0)
     - [Testcontainers](https://dotnet.testcontainers.org/)
-- Snapshot Testing
+- Teste Snapshot
      - [Verify](https://github.com/VerifyTests/Verify)
-- Behavior Testing
+- Teste de comportamento
      - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
-- End-to-End Testing
+- Teste ponta a ponta
      - [Playwright](https://playwright.dev/)
-- Performance Testing
+- Teste de performance
      - [K6](https://github.com/grafana/k6)
      - [JMeter](https://github.com/apache/jmeter)
 
@@ -288,6 +277,8 @@ Essas ferramentas oferecem informações em tempo real sobre o desempenho do seu
 - **Monitorização** centra-se na saúde e disponibilidade de serviços e sistemas, desencadeando frequentemente alertas para condições predefinidas.
 
 - **Telemetria** coleta, processa e transmite dados de sistemas, permitindo a análise de padrões, tendências e anomalias.
+
+**Recursos**:
 - [Prometheus](https://github.com/prometheus/prometheus)
 - [Grafana](https://github.com/grafana/grafana)
 - [Datadog](https://www.datadoghq.com)
@@ -306,7 +297,7 @@ As soluções de contêiner encapsulam seu aplicativo .NET, suas bibliotecas e o
     - [Docker Compose](https://docs.docker.com/compose/)
     - [Docker Hub](https://hub.docker.com/)
     - [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro)
-- Orchestration
+- Orquestração
     - [Kubernetes](https://kubernetes.io)
     - [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service)
     - [Helm](https://helm.sh/)
@@ -363,7 +354,7 @@ Essas ferramentas podem ajudá-lo a identificar e depurar diferentes gargalos de
 
 #### Melhores práticas de desempenho
 
-- **Cache** (cache de memória in-mem ou Redis)
+- **Cache** (cache de memória ou Redis)
 
 - **Otimização de banco de dados** (otimizar consultas, indexação adequada, pool de conexões)
 
